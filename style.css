@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.sl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 80px;
+    color: white;
+}
+
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#random{
+    color: black;
+    border: solid 3px black;
+}
+
+button{
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 3px black;
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
